@@ -43,6 +43,9 @@ class QuickSort {
         arr[j] = temp;
     }
 
+    /**
+     * Finds the kth largest element (determines by the given parameter position) in an unsorted array
+     */
     int randomizedSelection(int[] arr, int low, int high, int position) {
         position--;
         if (high - low <= 0) {
