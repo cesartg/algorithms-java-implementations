@@ -18,7 +18,7 @@ class QuickSort {
     }
 
     private int partition(int[] arr, int low, int high) {
-        int pivot = arr[low + random.nextInt(high - low)];
+        int pivot = arr[low + random.nextInt(high - low)];//Using a random pivot to have a good average-case behavior
         int i = low;
         int j = high;
         while (i <= j) {
