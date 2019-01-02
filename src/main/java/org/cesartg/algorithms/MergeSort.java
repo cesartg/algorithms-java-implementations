@@ -5,8 +5,8 @@ import java.util.Arrays;
 class MergeSort {
     private static void merge(int[] array, int low, int high) {
         int middle = (low + high) / 2;
-        int a[] = Arrays.copyOfRange(array, low, middle);
-        int b[] = Arrays.copyOfRange(array, middle, high);
+        int[] a = Arrays.copyOfRange(array, low, middle);
+        int[] b = Arrays.copyOfRange(array, middle, high);
         int i = 0;
         int j = 0;
         int k = low;
